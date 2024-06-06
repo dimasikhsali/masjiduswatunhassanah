@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{ 
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    /* scroll-behavior: smooth; */
+}
+
+
+body{
+    /* height: 500vh; */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-image: url(Assets/Group\ 10\(1\).png);
+    background-repeat: no-repeat;
+}
+
+.login {
+    width: 100%;
+   height: 100vh;
+   /* justify-content: center; */
+   display: flex;
+   /* align-items: center; */
+}
+
+.login .parent {
+    margin: auto;
+    display: flex;
+}
+
+.login .parent .img{
+width: 336px;
+height: 217px;
+margin: auto;
+}
+.login .parent .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login .parent .form h2{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 800;
+    color:#12AF65;
+    text-align: center;
+}
+
+.login .parent .form .log-in{
+    width:300px;
+    outline: none;
+    height: 37px;
+    border: none;
+    border-left: 3px solid #12AF65;
+    margin-top: 20px;
+font-weight: 500;
+padding-left: 10px;
+color: #12AF65;
+font-size: 17px;
+border-bottom: 3px solid #12AF65;
+}
+
+.login .parent .form .checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login .parent .form .checkbox p{
+    margin: 0;
+    color: #12AF65;
+        margin-left: 5px;
+    }
+    .login .parent .form .checkbox a{
+        margin-left: 46px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #12AF65;
+        border-bottom: 1px solid #12AF65;
+    }
+
+    
+    .login .parent .form button{
+        width: 140px;
+        height: 38px;
+        margin: 10px 0 3px 87px;
+        cursor: pointer;
+        color: white;
+        background-color: #12AF65;
+        border-radius: 5px;
+        border: none;
+        font-weight: 600;
+    }
+    
+    .login .parent .form  .p {
+        color: #12AF65;
+        text-align: center;
+        font-size: 14px;
+        margin: 2px 0 0 20px;
+    }
+    .login .parent .form  .D {
+        color: #12AF65;
+        text-align: center;
+        font-size: 14px;
+        margin: 6px 0 0 20px;
+    }
+    .login .parent .form  .D a{
+border-bottom:1px solid #12AF65 ;
+padding-bottom: 2px;
+color: #12AF65;
+    }
+    .login .parent .form  .google{
+        border: 2px solid #12AF65;
+        margin-top: 10px;
+        border-radius: 11px;
+        width: 300px;
+        height: 37px;
+        display: flex;
+        padding: 0 50px 0 50px;
+        align-items: center;
+        gap: 20px;
+    }
+    .login .parent .form  .google img{
+        width: 20px;
+        box-sizing: border-box;
+        height: 20px;
+    }
+    .login .parent .form  .google p{
+        color: #12AF65;
+        text-align: center;
+        font-size: 14px;
+    }
